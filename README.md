@@ -1,99 +1,84 @@
 # 📊 Sales Performance Dashboard (Power BI)
 
-## 📌 Project Overview
+An interactive, multi-page **Power BI** dashboard analyzing revenue, profitability,
+product performance, and customer behavior — built to deliver self-serve insights
+for data-driven decision-making.
 
-This project presents an interactive **Sales Performance Dashboard** built using Power BI to analyze revenue, profitability, customer behavior, and product performance. The dashboard is designed to deliver actionable insights and support data-driven decision-making.
+> **Data Source:** Microsoft *AdventureWorks* sample dataset (a fictional bicycle
+> manufacturer), modeled and visualized end-to-end in Power BI Desktop.
+
+![Executive Dashboard](images/dashboard-overview.png)
 
 ---
 
 ## 🎯 Business Objectives
-
-* Monitor overall **sales and profit performance**
-* Track key **KPIs** such as revenue, orders, and customers
-* Identify **top-performing products and regions**
-* Analyze **customer trends and segmentation**
-* Evaluate performance against **targets and goals**
-
----
-
-## 📊 Dashboard Structure
-
-### 🔹 Executive Dashboard
-
-* KPIs: Revenue, Profit, Orders, Customers
-* Year-to-date (YTD) performance
-* Revenue vs Target comparison
-
-### 🌍 Geographic Analysis
-
-* Regional sales distribution
-* Performance comparison across locations
-
-### 📦 Product Analysis
-
-* Product-level revenue and profitability
-* Return rates and product trends
-
-### 👥 Customer Analysis
-
-* Customer segmentation
-* Revenue per customer
-* Purchasing behavior insights
+- Monitor overall revenue, profit, and order performance
+- Track KPIs against monthly targets
+- Identify top-performing products, regions, and customers
+- Analyze customer segmentation and purchasing behavior
+- Model price-sensitivity scenarios to support pricing decisions
 
 ---
 
-## 📸 Dashboard Preview
+## 🔑 Key Insights
+- **$24.9M** total revenue • **$10.5M** profit • **25.2K** orders • **2.2%** return rate
+- **Tires and Tubes** is the most-ordered product; **Shorts** the most-returned
+- **17.4K** unique customers at **$1,431** average revenue per customer
+- Top customer (*Mr. Maurice Shan*) generated **$12.4K** in revenue
+- Orders concentrated in the **US**, with secondary demand across Europe and the Pacific
 
-![Executive Dashboard](images/dashboard-overview.png)
-![Product Analysis](images/product-detail.png)
-![Customer Analysis](images/customer-detail.png)
-![Geographic View](images/map-view.png)
+---
+
+## 🗂️ Dashboard Pages
+
+### 1. Executive Overview
+High-level KPIs (Revenue, Profit, Orders, Return Rate), revenue-trend analysis,
+orders by category, top-10 products by revenue, and month-over-month performance.
+
+### 2. Geographic Analysis
+![Map View](images/map-view.png)
+
+Interactive map of sales by region with one-click filters for **Europe**,
+**North America**, and **Pacific**.
+
+### 3. Product Analysis
+![Product Detail](images/product-detail.png)
+
+Product-level **Orders / Revenue / Profit vs. Target** gauges, a dynamic metric
+selector, and a **"Price Adjustment %" what-if parameter** that models Adjusted
+Profit under different pricing scenarios.
+
+### 4. Customer Analysis
+![Customer Detail](images/customer-detail.png)
+
+Customer segmentation by **income level** and **occupation**, revenue-per-customer
+metrics, and a top-100 customers leaderboard.
+
+---
+
+## 🧠 Techniques & Features
+- **DAX measures** for KPIs, targets, return rates, and time intelligence
+- **What-if parameter** for interactive price-sensitivity / scenario analysis
+- **KPI vs. Target gauges** for performance tracking
+- **Dynamic metric selection** (disconnected slicer) to switch between measures
+- **Drill-through** to product- and customer-detail pages
+- **Interactive map** with region-level filtering
+- **Data modeling** with star-schema relationships across fact and dimension tables
 
 ---
 
 ## 🛠️ Tools & Technologies
-
-* **Power BI** – Dashboard development and visualization
-* **DAX (Data Analysis Expressions)** – KPI calculations and measures
-* **Data Modeling** – Data relationships and transformations
-
----
-
-## 📈 Key Insights
-
-* Identified high-performing products contributing significantly to revenue
-* Analyzed customer purchasing behavior and segmentation trends
-* Highlighted regional variations in sales performance
-* Evaluated performance against revenue and profit targets
+`Power BI Desktop` · `DAX` · `Power Query` · `Data Modeling`
 
 ---
 
 ## 🚀 How to Use
-
-1. Download the `.pbix` file from this repository
-2. Open it in Power BI Desktop
-3. Interact with filters, slicers, and visuals
-
----
-
-## 💡 Project Highlights
-
-* Designed a **multi-page dashboard** for comprehensive business analysis
-* Implemented **advanced DAX measures** for KPIs and targets
-* Focused on **business insights and decision-making**
-* Structured report for **executive-level reporting**
+1. Download `Sales-Performance-Dashboard.pbix` from this repository
+2. Open it in **Power BI Desktop**
+3. Interact with the slicers, filters, drill-throughs, and the what-if parameter
 
 ---
 
 ## 👤 Author
-
 **Krishna Maniyar**
-Data Analyst | AI & Machine Learning Enthusiast
-
----
-
-## 📫 Contact
-
-📧 [krishnamaniyarkm22@gmail.com](mailto:krishnamaniyarkm22@gmail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/krishnamaniyar/)
-💻 [GitHub](https://github.com/krishnamaniyar2209)
+📧 krishnamaniyarkm22@gmail.com · [LinkedIn](https://www.linkedin.com/in/krishnamaniyar/) · [Portfolio](https://krishnamaniyar2209.github.io/)
